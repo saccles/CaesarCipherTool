@@ -1,6 +1,6 @@
 # Caesar Cipher Tool
 
-Simple overview of use/purpose.
+A tool for encrypting and decrypting messages using the Caesar cipher. Written in Python 3.
 
 ## Description
 
