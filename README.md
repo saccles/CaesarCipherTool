@@ -1,17 +1,22 @@
-# Project Title
+# Caesar Cipher Tool
 
 Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This program implements the Caesar substitution cipher and can encrypt and 
+decrypt simple messages and strings. Currently, this tool applies a right shift 
+of 3 to the standard English alphabet. This program was developed as a 
+visual aid for an informative speech on cryptography 
+(public speaking course). 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Python 3 and the Python Standard Library
+* CMD, PowerShell, Terminal, or some other Command Line Interface (CLI) 
+* A Windows, Linux, Unix, or macOS Operating System 
 
 ### Installing
 
@@ -28,7 +33,7 @@ code blocks for commands
 
 ## Help
 
-Any advise for common problems or issues.
+Any advice for common problems or issues.
 ```
 command to run if program contains helper info
 ```
