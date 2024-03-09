@@ -2,7 +2,7 @@
 # 1/31/2024
 # Casesar Cipher Tool
 # A program that encrypts and decrypts user-input using the Caesar cipher.
-# Modified 3/1/2024
+# Modified 3/9/2024
 
 from string import ascii_lowercase
 from caesar_cipher_functions import encrypt, decrypt
@@ -25,6 +25,7 @@ while program_active:
     # Encrypt text.
     if user_choice.lower() == 'e':
         plaintext = input("Enter the text or message to encrypt: ")
+        print()
         # Call encryption function.
         ciphertext = encrypt(plaintext)
         animate(f"Input: {plaintext}", time=0.15)
@@ -33,6 +34,7 @@ while program_active:
     # Decrypt text.
     elif user_choice.lower() == 'd':
         ciphertext = input("Enter the text or message to decrypt: ")
+        print()       
         # Call decryption function.
         plaintext = decrypt(ciphertext)
         animate(f"Input: {ciphertext}", time=0.15)

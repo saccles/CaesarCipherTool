@@ -1,12 +1,11 @@
-from caesar_cipher_functions import encode_text, decode_text, sleep
-from basic_animation_functions import animate_text
+from caesar_cipher_functions import encrypt, decrypt
+from basic_animation_functions import animate, sleep
 
-intro = "Dlla jlokfkd! Tbizljb ql jv pmbbze."
-animate_text(intro)
-animate_text(decode_text(intro))
+secret_msg = encrypt("Thanks for listening. Bye for now!")
+animate(secret_msg)
+print()
 
-sleep(180)
+sleep(390)
 
-conclusion = "\nQexkhp clo ifpqbkfkd. Yvb clo klt!"
-animate_text(conclusion)
-animate_text(decode_text(conclusion))
+animate(decrypt(secret_msg))
+
