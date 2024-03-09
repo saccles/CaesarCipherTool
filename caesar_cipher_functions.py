@@ -1,17 +1,16 @@
 from string import ascii_lowercase
-from time import sleep
 
 VALID_CHARS = [letter for letter in ascii_lowercase]
-KEY = -3
+KEY = 3
 
-def encode_text(plaintext):
-    """A function that encodes a string using the caesar cipher."""
+def encrypt(plaintext):
+    """A function that encrypts a string using the Caesar cipher."""
     ciphertext = ""
     for char in plaintext:
         if char.lower() in VALID_CHARS:
             # Get position of character.
             index = VALID_CHARS.index(char.lower())
-            # Perform encoding operations.
+            # Perform encryption operations.
             new_index = (index + KEY) % 26
             new_char = VALID_CHARS[new_index]
             if char.isupper():
@@ -21,14 +20,14 @@ def encode_text(plaintext):
         ciphertext += new_char
     return ciphertext
 
-def decode_text(ciphertext):
-    """A function that decodes a string using the caesar cipher."""
+def decrypt(ciphertext):
+    """A function that decrypts a string using the Caesar cipher."""
     plaintext = ""
     for char in ciphertext:
         if char.lower() in VALID_CHARS:
             # Get position of character.
             index = VALID_CHARS.index(char.lower())
-            # Perform decoding operations. 
+            # Perform decryption operations. 
             new_index = (index - KEY) % 26
             new_char = VALID_CHARS[new_index]
             if char.isupper():
