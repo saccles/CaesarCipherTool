@@ -20,48 +20,35 @@ visual aid for an informative speech on cryptography
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
+```
+git clone https://gitlab.com/python-projects7372210/caesar-cipher-tool.git
+```
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+cd caesar-cipher-tool
+python3 caesar.py
 ```
 
 ## Help
 
-Any advice for common problems or issues.
-```
-command to run if program contains helper info
-```
+Make sure all program files are stored in one location. The caesar.py program relies on functions stored in caesar_cipher_functions.py and basic_animation_functions.py to run. 
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Silas Accles  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+[formaljek14]  
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License. See the LICENSE.md file for details.
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Inspiration
+* [wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher)
+* [Python Documentation](https://docs.python.org/3/library/index.html)
