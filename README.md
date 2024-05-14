@@ -15,6 +15,7 @@ visual aid for an informative speech on cryptography
 ### Dependencies
 
 * Python 3 and the Python Standard Library
+* The Open Source "git" Version Control System
 * CMD, PowerShell, Terminal, or some other Command Line Interface (CLI) 
 * A Windows, Linux, Unix, or macOS Operating System 
 
