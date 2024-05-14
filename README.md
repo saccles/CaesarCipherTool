@@ -19,16 +19,24 @@ visual aid for an informative speech on cryptography
 * CMD, PowerShell, Terminal, or some other Command Line Interface (CLI) 
 * A Windows, Linux, Unix, or macOS Operating System 
 
-### Installing
+### Installation
 
 ```
 git clone https://gitlab.com/python-projects7372210/caesar-cipher-tool.git
 ```
-### Executing program
+
+### Program Execution
 
 ```
 cd caesar-cipher-tool
 python3 caesar.py
+    /\---Caesar Cipher Tool---/\
+    Encrypt or Decrypt?
+    ('e' = encrypt, 'd' = decrypt, 'q' = quit): e    
+    Enter the text or message to encrypt: apple
+
+    Input: apple
+    Ciphertext: dssoh
 ```
 
 ## Help
@@ -50,6 +58,6 @@ This project is licensed under the MIT License. See the LICENSE.md file for deta
 
 ## Acknowledgments
 
-Inspiration
-* [wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher)
+## Inspiration
+* [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher)
 * [Python Documentation](https://docs.python.org/3/library/index.html)
