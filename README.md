@@ -22,7 +22,7 @@ visual aid for an informative speech on cryptography
 ### Installation
 
 ```
-git clone https://gitlab.com/python-projects7372210/caesar-cipher-tool.git
+git clone https://github.com/saccles/CaesarCipherTool.git
 ```
 
 ### Program Execution
