@@ -30,13 +30,13 @@ git clone https://gitlab.com/python-projects7372210/caesar-cipher-tool.git
 ```
 cd caesar-cipher-tool
 python3 caesar.py
-    /\---Caesar Cipher Tool---/\
-    Encrypt or Decrypt?
-    ('e' = encrypt, 'd' = decrypt, 'q' = quit): e    
-    Enter the text or message to encrypt: apple
+/\---Caesar Cipher Tool---/\
+Encrypt or Decrypt?
+('e' = encrypt, 'd' = decrypt, 'q' = quit): e    
+Enter the text or message to encrypt: apple
 
-    Input: apple
-    Ciphertext: dssoh
+Input: apple
+Ciphertext: dssoh
 ```
 
 ## Help
@@ -45,7 +45,7 @@ Make sure all program files are stored in one location. The caesar.py program re
 
 ## Authors
 
-[formaljek14]  
+Silas Accles [saccles]  
 
 ## Version History
 
